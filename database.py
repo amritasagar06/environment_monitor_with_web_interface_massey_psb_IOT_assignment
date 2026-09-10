@@ -7,7 +7,6 @@ logger = logging.getLogger(__name__)
 
 # Name of the SQLite database file where data will be stored
 DB_PATH = "environment.db"
-
 # Default min/max alert thresholds for temperature, humidity, and atmospheric pressure
 DEFAULT_THRESHOLDS = {
     "temp_min": 0,
