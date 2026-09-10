@@ -17,8 +17,6 @@ DEFAULT_THRESHOLDS = {
     "pressure_min": 970,
     "pressure_max": 1030,
 }
-
-
 @contextmanager
 def get_conn():
     """Helper function to automatically connect, commit changes, roll back errors, and close the database connection safely."""
