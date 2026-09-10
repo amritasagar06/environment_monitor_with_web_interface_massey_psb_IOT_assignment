@@ -1,7 +1,6 @@
 from contextlib import contextmanager
 import logging
 import sqlite3
-
 # Set up logging to record error messages
 logger = logging.getLogger(__name__)
 # Name of the SQLite database file where data will be stored
