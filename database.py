@@ -50,7 +50,6 @@ def init_db():
                 (k, v),
             )
 
-
 def save_reading(temp, humidity, pressure, timestamp):
     """Insert a single new sensor reading into the 'readings' table."""
     try:
