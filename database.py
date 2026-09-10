@@ -28,8 +28,6 @@ def get_conn():
         raise  # Re-raise the exception so callers know something went wrong
     finally:
         conn.close()  # Always close the connection when done
-
-
 def init_db():
     """Set up the SQLite database structure (tables) and insert initial settings if they don't exist yet."""
     with get_conn() as conn:
