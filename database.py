@@ -37,7 +37,6 @@ def init_db():
             timestamp TEXT NOT NULL,
             temperature REAL, humidity REAL, pressure REAL
         )""")
-
         # Create a table to store key-value configuration settings
         conn.execute("""CREATE TABLE IF NOT EXISTS settings (
             key TEXT PRIMARY KEY, value REAL
